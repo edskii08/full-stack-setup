@@ -1,5 +1,5 @@
 ---
-- hosts: servera.example.com, serverc.example.com, serverd.example.com
+- hosts: webservers
   name: Install the web server and start it
   become: yes
   vars:
