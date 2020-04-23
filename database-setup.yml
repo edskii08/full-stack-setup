@@ -1,5 +1,5 @@
 ---
-- hosts: servera.example.com, serverc.example.com, serverd.example.com
+- hosts: databases
   name: Install MariaDB database server and start it
   become: yes
   tasks:
